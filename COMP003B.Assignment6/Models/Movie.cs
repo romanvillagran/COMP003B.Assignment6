@@ -14,5 +14,7 @@ namespace COMP003B.Assignment6.Models
         [Required]
         [Range(1895, 2025)]
         public int Year { get; set; }
+
+        public string? Language { get; set; }
     }
 }
